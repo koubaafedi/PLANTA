@@ -407,6 +407,7 @@ the website, in dark theme
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .about__img{
@@ -439,7 +440,9 @@ the website, in dark theme
   color: #8ABE53;
   margin-top: .15rem;
 }
-
+.about_data{
+  margin: auto;
+}
 /*=============== STEPS ===============*/
 .steps__bg{
   background-color: var(--first-color);
@@ -501,7 +504,9 @@ the website, in dark theme
   display: grid;
   position: relative;
 }
-
+.product__carre{
+  height: 210px;
+}
 .product__img{
   position: relative;
   justify-self: center;
